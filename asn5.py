@@ -1,0 +1,16 @@
+num = list()
+for i in range(1,6):
+    n=int(input("enter number"))
+    num.append(n)
+print(num)
+print("sum of all elements :\n",sum(num))
+print("minimum number:\n",min(num))
+print("maximum number :\n",max(num))
+num.sort()
+print("ascending order",num)
+num.reverse()
+print("descending order",num)
+t=tuple(num)
+print(t)
+del num
+print(num)
